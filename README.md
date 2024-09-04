@@ -1,2 +1,2 @@
-# security-rules
-Here is a collection of rules both Yara and Sigma for use within shuffle
+# Securityrules
+Here is a collection of rules for different detection engines used in Detection mechanisms in Shuffle
