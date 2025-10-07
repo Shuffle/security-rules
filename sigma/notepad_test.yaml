@@ -1,0 +1,15 @@
+title: Test Notepad Event
+status: experimental
+description: Detects a test event for Sigma rule testing
+author: test
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4688  # Process creation event
+        NewProcessName: '*notepad.exe*'
+        Context: Testing
+    condition: selection
+level: low
+
